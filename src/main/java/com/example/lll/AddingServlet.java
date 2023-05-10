@@ -39,8 +39,5 @@ public class AddingServlet extends HttpServlet {
         String[] row = {gfg.name, gfg.lastname, gfg.middlename, gfg.age, gfg.language};
         dataModel.addData(row);
         dataModel.writeToCSV(filePath);
-
-        //String row = gfg.name + "," + gfg.lastname + "," + gfg.middlename + "," + Integer.toString(gfg.age) + "," + gfg.language;
-        //String filePath = "C:\\Users\\denis\\IdeaProjects\\LLL\\src\\main\\webapp\\csv\\data.csv";
     }
 }
